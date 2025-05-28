@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Griffe47 - Moda Masculina Premium</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <header></header>
+
+  <!-- Banner Hero -->
+  <section class="hero position-relative">
+    <img src="assets/imagens/banner.png" alt="Coleção Griffe47" class="img-fluid w-100" style="height: 500px; object-fit: cover;">
+    <div class="position-absolute top-50 start-0 translate-middle-y ps-5 text-white">
+      <h1 class="display-4 fw-bold">Estilo que Inspira</h1>
+      <p class="lead">Descubra nossa nova coleção outono/inverno</p>
+      <a href="#destaques" class="btn btn-light btn-lg mt-3">Ver Coleção</a>
+    </div>
+  </section>
+
+  <!-- Seção de Destaques -->
+  <section class="container py-5" id="destaques">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Nossos Destaques</h2>
+      <p class="text-muted">Peças selecionadas para seu guarda-roupa</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Produto 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 product-card">
+          <a href="detalhes-produto.html?id=1" class="text-decoration-none text-dark">
+            <img src="assets/imagens/camisa-slim.jpg" class="card-img-top" alt="Camisa Slim">
+            <div class="card-body">
+              <h5 class="card-title">Camisa Slim</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text mb-0">R$ 89,90</p>
+                <span class="badge bg-success">Mais vendido</span>
+              </div>
+            </div>
+          </a>
+          <div class="card-footer bg-white border-top-0">
+            <button class="btn btn-outline-dark w-100 add-to-cart" data-product-id="1">
+              <i class="bi bi-cart-plus"></i> Adicionar
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 product-card">
+          <a href="detalhes-produto.html?id=2" class="text-decoration-none text-dark">
+            <img src="assets/imagens/camisa-basica.jpg" class="card-img-top" alt="Camiseta Básica">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Básica</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text mb-0">R$ 59,90</p>
+                <span class="badge bg-primary">Novidade</span>
+              </div>
+            </div>
+          </a>
+          <div class="card-footer bg-white border-top-0">
+            <button class="btn btn-outline-dark w-100 add-to-cart" data-product-id="2">
+              <i class="bi bi-cart-plus"></i> Adicionar
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 product-card">
+          <a href="detalhes-produto.html?id=3" class="text-decoration-none text-dark">
+            <img src="assets/imagens/blazer-casual.jpg" class="card-img-top" alt="Blazer Casual">
+            <div class="card-body">
+              <h5 class="card-title">Blazer Casual</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text mb-0">
+                  <del class="text-muted">R$ 199,90</del> 
+                  <strong class="text-danger">R$ 149,90</strong>
+                </p>
+                <span class="badge bg-danger">-25%</span>
+              </div>
+            </div>
+          </a>
+          <div class="card-footer bg-white border-top-0">
+            <button class="btn btn-outline-dark w-100 add-to-cart" data-product-id="3">
+              <i class="bi bi-cart-plus"></i> Adicionar
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produto 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100 product-card">
+          <a href="detalhes-produto.html?id=4" class="text-decoration-none text-dark">
+            <img src="assets/imagens/jeans.webp" class="card-img-top" alt="Calça Jeans">
+            <div class="card-body">
+              <h5 class="card-title">Calça Jeans</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="card-text mb-0">R$ 129,90</p>
+                <span class="badge bg-warning text-dark">Últimas unidades</span>
+              </div>
+            </div>
+          </a>
+          <div class="card-footer bg-white border-top-0">
+            <button class="btn btn-outline-dark w-100 add-to-cart" data-product-id="4">
+              <i class="bi bi-cart-plus"></i> Adicionar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Categorias -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Explore por Categoria</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <a href="categoria-camisas.html" class="text-decoration-none">
+            <div class="card category-card border-0">
+              <img src="assets/imagens/camisas.jpg" class="card-img" alt="Camisas">
+              <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                <h3 class="text-white bg-dark bg-opacity-50 p-2 rounded">Camisas</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="categoria-casual.html" class="text-decoration-none">
+            <div class="card category-card border-0">
+              <img src="assets/imagens/casual.webp" class="card-img" alt="Casual">
+              <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                <h3 class="text-white bg-dark bg-opacity-50 p-2 rounded">Casual</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="categoria-roupas.html" class="text-decoration-none">
+            <div class="card category-card border-0">
+              <img src="assets/imagens/social.jpg" class="card-img" alt="Roupas">
+              <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                <h3 class="text-white bg-dark bg-opacity-50 p-2 rounded">Social</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="mb-4">Receba Nossas Ofertas</h2>
+          <p class="mb-4">Assine nossa newsletter e receba 10% de desconto na primeira compra</p>
+          <form class="d-flex">
+            <input type="email" class="form-control me-2" placeholder="Seu melhor e-mail" required>
+            <button class="btn btn-light" type="submit">Assinar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Script para o carrinho -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Adicionar ao carrinho
+      document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const productId = this.getAttribute('data-product-id');
+          
+          // Simular adição ao carrinho
+          console.log(`Produto ${productId} adicionado ao carrinho`);
+          
+          // Feedback visual
+          this.innerHTML = '<i class="bi bi-check"></i> Adicionado';
+          this.classList.remove('btn-outline-dark');
+          this.classList.add('btn-success');
+          
+          setTimeout(() => {
+            this.innerHTML = '<i class="bi bi-cart-plus"></i> Adicionar';
+            this.classList.add('btn-outline-dark');
+            this.classList.remove('btn-success');
+          }, 2000);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
