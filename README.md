@@ -19,6 +19,6 @@ Alunos:       Alexandre Savini                        RA: 24000563
               
               Gabriel Henrique Barbosa                RA: 1012023200408
               
-              Gabriel Henrique dos Reis Dionizio      RA: 24000541
+              Gabriel Henrique dos Reis Diunizio      RA: 24000541
               
               Glauber Mariano Lellis Junior           RA: 1012023200186
