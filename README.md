@@ -13,7 +13,7 @@ Projeto desenvolvido para a disciplina de Desenvolvimento WEB, utilizando:
 Desenvolvido por:
 Alunos:       Alexandre Savini                        RA: 24000563
 
-              José Carlos Machado                     RA: 1012022201571
+              José Carlos Machado Inácio              RA: 1012022201571
               
               Julio Cesar Azevedo Souza               RA: 24001773
               
